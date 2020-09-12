@@ -4,11 +4,16 @@
 *=======================================================
 */
 function dibu(){
-
+var ua = window.navigator.userAgent.toLowerCase();
 var fc_fw="100%";  //广告宽度,单位px,如自适应宽度就改为100%;
 var fc_fh="60px";    //广告高度,单位px
 var fc_fsrc=['https://cdn.jsdelivr.net/gh/babyyvh/858@master/app.png','https://cdn.jsdelivr.net/gh/babyyvh/858@master/app.png','https://cdn.jsdelivr.net/gh/babyyvh/858@master/app.png'];//图片地址[个数要和链接个数对应]
-var fc_fl=['https://cdn.jsdelivr.net/gh/babyyvh/858@master/v1.04.apk','https://cdn.jsdelivr.net/gh/babyyvh/858@master/v1.04.apk','https://cdn.jsdelivr.net/gh/babyyvh/858@master/v1.04.apk'];//图片链接地址[个数要和图片地址个数对应]
+    if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+        var fc_fl=['https://www.858vod.com/app/','https://www.858vod.com/app/','https://www.858vod.com/app/'];//图片链接地址[个数要和图片地址个数对应]
+    } else {
+        var fc_fl=['https://cdn.jsdelivr.net/gh/babyyvh/858@master/v1.04.apk','https://cdn.jsdelivr.net/gh/babyyvh/858@master/v1.04.apk','https://cdn.jsdelivr.net/gh/babyyvh/858@master/v1.04.apk']//图片链接地址[个数要和图片地址个数对应]
+    }
+
 //样式
 document.writeln("<style type=\"text/css\">");
 document.writeln("*{margin:0;padding:0; list-style:none;}");
