@@ -48,7 +48,7 @@ textarea{resize:vertical;overflow-y:auto}
     .topiclist .img{height:0;padding-bottom:70%;}
     .sy{display:none;}
 	.sjnone{display:none;}
-    .content .pic{float:left;width:32%;height:0;padding-bottom:15%;padding-top: 6px;overflow: hidden;}
+    .content .pic{float:left;width:32%;height:0;padding-bottom:45%;padding-top: 6px;overflow: hidden;}
     .content .info{margin-left:34%;}
     .content .desd .desmb{display:block;}
     .content .info dd{line-height:22px;height:22px;}
