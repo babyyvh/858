@@ -34,6 +34,7 @@ textarea{resize:vertical;overflow-y:auto}
 
 @media(max-width: 359px){.ls{display:none;}}
 @media (min-width: 0px) and (max-width: 639px){
+	.hidden_sj{display: none !important;}
     .mb{margin-bottom:4%;}
 	.mt{margin-top:4%;}
     .wrap{width:99%;}
@@ -59,6 +60,7 @@ textarea{resize:vertical;overflow-y:auto}
     .urlli .p2{margin-right:0;}
     }
 @media (min-width: 640px) and (max-width: 767px){
+	.hidden_sj{display: none !important;}
 	.mb{margin-bottom:4%;}
 	.mt{margin-top:4%;}
 	.wrap{width:98%;}
@@ -81,6 +83,7 @@ textarea{resize:vertical;overflow-y:auto}
     .urlli .p2{margin-right:0;}
 }
 @media (min-width: 768px) and (max-width: 1023px){
+	.hidden_sj{display: none !important;}
     .wrap{width:760px;}
     .mb{margin-bottom:20px;}
 	.mt{margin-top:20px;}
