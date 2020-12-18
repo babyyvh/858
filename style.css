@@ -58,6 +58,7 @@ textarea{resize:vertical;overflow-y:auto}
     .content .c-r{width:100%;clear:both;padding-top:2%;display:none;}
     .urlli li{width:17.5%;margin:2.5% 2.5% 0 0;}
     .urlli .p2{margin-right:0;}
+	.player{height:270px;}
     }
 @media (min-width: 640px) and (max-width: 767px){
 	.hidden_sj{display: none !important;}
@@ -81,6 +82,7 @@ textarea{resize:vertical;overflow-y:auto}
     .content .c-r{width:100%;clear:both;padding-top:2%;display:none;}
     .urlli li{width:17.5%;margin:2.5% 2.5% 0 0;}
     .urlli .p2{margin-right:0;}
+	.player{height:270px;}
 }
 @media (min-width: 768px) and (max-width: 1023px){
 	.hidden_sj{display: none !important;}
@@ -115,6 +117,7 @@ textarea{resize:vertical;overflow-y:auto}
     .content .info dt.desd{line-height:22px;}
     .urlli li{width:70px;margin:10px 10px 0 0;}
     .urlli .p1{margin-right:0;}
+	.player{height:550px;}
     }
 @media (min-width: 1024px) and (max-width: 1365px){
     .wrap{width:1000px;}
@@ -148,6 +151,7 @@ textarea{resize:vertical;overflow-y:auto}
     .content .info dt.desd{line-height:30px;}
     .urlli li{width:90px;margin:10px 10px 0 0;}
     .urlli .p1{margin-right:0;}
+	.player{height:550px;}
     }
 @media (min-width: 1366px) and (max-width: 1599px){
     .wrap{width:1200px;}
@@ -181,6 +185,7 @@ textarea{resize:vertical;overflow-y:auto}
     .content .info dt.desd{line-height:30px;}
     .urlli li{width:110px;margin:10px 10px 0 0;}
     .urlli .p1{margin-right:0;}
+	.player{height:550px;}
     }
 @media (min-width: 1600px) {
     .wrap{width:1400px;}
@@ -214,6 +219,7 @@ textarea{resize:vertical;overflow-y:auto}
     .content .info dt.desd{line-height:30px;}
     .urlli li{width:131px;margin:10px 10px 0 0;}
     .urlli .p1{margin-right:0;}
+	.player{height:550px;}
     }
 @media (max-width: 319px) {
     .wrap{width:320px;}
@@ -384,6 +390,7 @@ textarea{resize:vertical;overflow-y:auto}
 .cxg .text p{padding:0;}
 .ncu li{cursor: default;}
 /*play  height:420px;*/
+#a1{height:100%;}
 .player{background: #000 url(https://cdn.jsdelivr.net/gh/babyyvh/858@master/pload.gif) no-repeat center center;}
 .playding{background: #000;color:#fff;}
 .playding li{text-align: center;float:left;line-height:30px;}
